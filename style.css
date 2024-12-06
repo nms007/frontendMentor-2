@@ -69,6 +69,15 @@ body {
     font-size: var(--fs-1);
 }
 
+.content h1 a {
+    color: var(--gray-900);
+    text-decoration: none;
+}
+
+.content h1 a:hover {
+    color: var(--yellow);
+}
+
 .content p {
     padding: 16px 0;
     font-size: var(--fs-2);
